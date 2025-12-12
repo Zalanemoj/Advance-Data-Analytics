@@ -1,9 +1,6 @@
 \# 🚀 EXECUTIVE INSIGHTS BRIEFING  
 **\*\*Data Source:\*\*** Retail Data Warehouse (Gold Schema)
 
-\#\# 1️⃣ THE 30-SECOND SNAPSHOT (Key Metrics)  
-*\*Based on aggregate sales data.\**
-
 \* **\*\*Revenue Engine:\*\*** The business tracks **\*\*Total Sales Amount\*\*** across all transactions.  
 \* **\*\*Volume:\*\*** We are monitoring **\*\*Total Quantity\*\*** of items sold and total unique **\*\*Orders\*\***.  
 \* **\*\*Customer Base:\*\*** We know the exact count of unique **\*\*Buying Customers\*\***.  
