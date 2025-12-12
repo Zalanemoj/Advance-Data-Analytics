@@ -3,8 +3,10 @@
 ![SQL Server](https://img.shields.io/badge/Database-SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
+<img width="2816" height="1536" alt="Banner" src="https://github.com/user-attachments/assets/88a08f2b-92df-49d0-aa8f-5adb5e7e7d85" />
+
 ## 📖 Project Overview
-This project involves building a **Retail Data Warehouse** from scratch and performing **Exploratory Data Analysis (EDA)** and **Advanced Analytics** to derive actionable business insights. 
+This project involves building a **Retail Data Warehouse** from scratch and performing **Exploratory Data Analysis (EDA)** and **Advanced Analytics** to derive actionable business insights.
 
 Using **Microsoft SQL Server**, the project covers the full data pipeline:
 1.  **Database Design:** Creating a Star Schema (`gold` schema) with Fact and Dimension tables.
@@ -13,6 +15,10 @@ Using **Microsoft SQL Server**, the project covers the full data pipeline:
 4.  **Advanced Analytics:** Customer segmentation, Year-over-Year (YoY) growth, and Part-to-Whole analysis using Window Functions.
 
 ## 🗂️ Database Schema
+
+<img width="2816" height="1536" alt="Arcitucture" src="https://github.com/user-attachments/assets/7a26d8de-f2d4-4011-8b8f-eb5583187e5e" />
+*The Star Schema architecture illustrating data flow from source CSVs to Fact and Dimension tables.*
+
 The project uses a **Star Schema** architecture optimized for analytics:
 * **`gold.fact_sales`**: The central table containing transactional data (Sales, Quantity, Price).
 * **`gold.dim_customers`**: Dimension table for customer demographics (Gender, Country, Marital Status).
@@ -26,6 +32,9 @@ The SQL scripts in this repository answer the following critical business questi
 * How many unique customers and products are in the system?
 
 ### 2. Customer Analysis & Segmentation
+<img width="2816" height="1536" alt="Advance-Analytics" src="https://github.com/user-attachments/assets/b7d29c54-8562-47cb-886b-51cbd0b87c94" />
+*Advanced segmentation categorizing customers into VIP, Regular, and New based on spending and tenure.*
+
 * **VIP vs. Regular:** Segregated customers into 'VIP', 'Regular', and 'New' categories based on spending thresholds (>5000) and account tenure (>12 months).
 * **Demographics:** Analyzed customer distribution by Country and Gender.
 * **Top Spenders:** Identified the top 10 customers by total revenue.
@@ -50,10 +59,10 @@ The SQL scripts in this repository answer the following critical business questi
 ## 💻 How to Run
 1.  **Clone the Repository:**
     ```bash
-    git clone (https://github.com/Zalanemoj/Advance-Data-Analytics)
+    git clone [https://github.com/Zalanemoj/Advance-Data-Analytics](https://github.com/Zalanemoj/Advance-Data-Analytics)
     ```
 2.  **Setup Database:**
-    * Open `scripts/Data-insert` in SSMS (SQL Server Management Studio).
+    * Open `scripts/Data-insert.sql` in SSMS (SQL Server Management Studio).
     * **Note:** Update the file paths in the `BULK INSERT` commands to match the location of your CSV files on your local machine.
     * Run the script to create the `DataWarehouseAnalytics` database and load the data.
 3.  **Run Analysis:**
