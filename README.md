@@ -50,14 +50,14 @@ The SQL scripts in this repository answer the following critical business questi
 ## 💻 How to Run
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/yourusername/retail-data-analytics.git](https://github.com/yourusername/retail-data-analytics.git)
+    git clone (https://github.com/Zalanemoj/Advance-Data-Analytics)
     ```
 2.  **Setup Database:**
-    * Open `database_setup/01_database_creation.sql` in SSMS (SQL Server Management Studio).
+    * Open `scripts/Data-insert` in SSMS (SQL Server Management Studio).
     * **Note:** Update the file paths in the `BULK INSERT` commands to match the location of your CSV files on your local machine.
     * Run the script to create the `DataWarehouseAnalytics` database and load the data.
 3.  **Run Analysis:**
-    * Execute scripts in the `analysis_queries/` folder to generate insights.
+    * Execute scripts in the `Scripts/` folder to generate insights.
 
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
